@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jmarkstar.sesion3.RByCBActivity">
+
+    <RadioGroup android:id="@+id/rg_colores"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton android:id="@+id/rb_verde"
+            android:text="Verde"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton android:id="@+id/rb_azul"
+            android:text="Azul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton android:id="@+id/rb_rojo"
+            android:text="Rojo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton android:id="@+id/rb_amarillo"
+            android:text="Amarillo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton android:id="@+id/rb_purpura"
+            android:text="Purpura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <LinearLayout android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox  android:id="@+id/cb_libro_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Libro 1"
+            android:onClick="onCheckboxClicked"/>
+
+        <CheckBox android:id="@+id/cb_libro_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Libro 2"
+            android:onClick="onCheckboxClicked"/>
+
+        <CheckBox  android:id="@+id/cb_libro_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Libro 3"
+            android:onClick="onCheckboxClicked"/>
+
+    </LinearLayout>
+
+    <Spinner android:id="@+id/sp_paises"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

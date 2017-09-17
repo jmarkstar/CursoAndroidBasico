@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sesion 2</string>
+    <string name="autor">Marco Estrella</string>
+    <string name="toast_2_mensaje">Mensaje Toast con mas duración de visibilidad</string>
+</resources>

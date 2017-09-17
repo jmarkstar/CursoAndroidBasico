@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jmarkstar.sesion3.RelativeLayout2Activity">
+
+    <!-- Este es el hijo principal, los demas hijos lo usaran como
+        referencia para posicionarse  -->
+    <TextView android:id="@+id/tv_hijo_principal"
+        android:text="HIJOS PRINCIPAL"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--
+        android:layout_above="@+id/tv_hijo_principal"
+
+        Esta propiedad le dice al ImageView que se posicione arriba
+        del TextView con ID 'tv_hijo_principal'.
+
+        Ademas de centrarlo horizontalmente tomando como referencia al padre(El RelativeLayout).
+        android:layout_centerHorizontal="true"
+    -->
+    <ImageView android:layout_above="@+id/tv_hijo_principal"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_face"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--
+        android:layout_below="@+id/tv_hijo_principal"
+
+        Esta propiedad le dice al EditText que se posicione abajo
+        del TextView con ID 'tv_hijo_principal'.
+
+        Ademas de centrarlo horizontalmente tomando como referencia al padre(El RelativeLayout).
+        android:layout_centerHorizontal="true"
+    -->
+    <EditText android:layout_below="@+id/tv_hijo_principal"
+        android:layout_centerHorizontal="true"
+        android:hint="Ejemplos de RL"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+    <!--
+        android:layout_toRightOf="@+id/tv_hijo_principal"
+        android:layout_toEndOf="@+id/tv_hijo_principal"
+
+        Estas propiedades le dice al TextView que se posicione al lado derecho
+        del TextView con ID 'tv_hijo_principal'.
+
+        demas de centrarlo verticalmente tomando como referencia al padre(El RelativeLayout).
+        android:layout_centerVertical="true"
+    -->
+    <TextView android:text="Hola"
+        android:layout_toRightOf="@+id/tv_hijo_principal"
+        android:layout_toEndOf="@+id/tv_hijo_principal"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--
+        android:layout_toLeftOf="@+id/tv_hijo_principal"
+        android:layout_toStartOf="@+id/tv_hijo_principal"
+
+        Estas propiedades le dice al TextView que se posicione al lado izquierdo
+        del TextView con ID 'tv_hijo_principal'.
+
+        demas de centrarlo verticalmente tomando como referencia al padre(El RelativeLayout).
+        android:layout_centerVertical="true"
+    -->
+    <TextView android:text="Hola"
+        android:layout_toLeftOf="@+id/tv_hijo_principal"
+        android:layout_toStartOf="@+id/tv_hijo_principal"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

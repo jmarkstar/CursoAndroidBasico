@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="numeros_primos">
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>11</item>
+    </integer-array>
+    <string-array name="paises">
+        <item>Peru</item>
+        <item>Brasil</item>
+        <item>Australia</item>
+        <item>Canada</item>
+        <item>Inglaterra</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="ejemplo_booleano_1">true</bool>
+    <bool name="ejemplo_booleano_2">false</bool>
+</resources>
