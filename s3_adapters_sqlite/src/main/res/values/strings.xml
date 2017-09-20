@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Sesion 3</string>
+    <string name="btn_guardar">GUARDAR</string>
+    <string name="hint_direccion">Escribe tu dirección</string>
+    <string name="hint_nombre">Escribe tu nombre</string>
+    <string name="hint_apellido">Escribe tu apellido</string>
+    <string name="tienes_hijos">¿Tienes Hijos?</string>
+    <string name="cuantos_hijos">¿Cuantos?</string>
+    <string name="tienes_1_hijo">Tienes 1 hijo</string>
+    <string name="tienes_entre_2_a_4">Tienes entre 2 a 4 hijos</string>
+    <string name="tienes_entre_5_mas">Tienes entre 5 a más hijos</string>
+    <string name="terminos">Aceptar terminos y condiciones</string>
+    <string name="guardar_mensaje">el boton guardar fue presionado</string>
+    <string name="compartido_mensaje">El evento compartido fue ejecutado</string>
+    <string name="opt_1_mensaje">Tienes 1 hijo</string>
+    <string name="opt_2_mensaje">Tienes entre 2 y 4 hijos</string>
+    <string name="opt_3_mensaje">Tienes entre 5 a mas hijos</string>
+</resources>
