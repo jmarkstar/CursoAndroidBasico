@@ -14,4 +14,8 @@ public class MainActivity extends AppCompatActivity {
     public void onGoButterknife(View view){
         ButterknifeActivity.start(this);
     }
+
+    public void onGoSqlite(View view){
+        SqliteActivity.start(this);
+    }
 }

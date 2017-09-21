@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ButterknifeActivity"></activity>
+        <activity android:name=".ButterknifeActivity" />
+        <activity android:name=".SqliteActivity"></activity>
     </application>
 
 </manifest>

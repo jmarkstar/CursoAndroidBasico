@@ -2,6 +2,7 @@ package com.jmarkstar.s3;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.IdRes;
 import android.support.v7.app.AppCompatActivity;
@@ -13,6 +14,11 @@ import android.widget.LinearLayout;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import butterknife.BindColor;
+import butterknife.BindDimen;
+import butterknife.BindDrawable;
+import butterknife.BindString;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -37,6 +43,11 @@ public class ButterknifeActivity extends AppCompatActivity {
     CheckBox cbTerms;
     @BindView(R.id.m_btn_guardar)
     Button mBtnGuardar;
+
+    @BindString(R.string.app_name) String appName;
+    @BindDrawable(R.drawable.ic_rabbit) Drawable mDwRabbit;
+    @BindColor(R.color.colorAccent) int colorAccent;
+    @BindDimen(R.dimen.ancho_photo) float mDmAnchoPhoto;
 
     public static void start(Context context) {
         Intent starter = new Intent(context, ButterknifeActivity.class);
