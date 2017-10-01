@@ -1,1 +1,1 @@
-include ':s2_recursos_views_adapters', ':s3_adapters_sqlite'
+include ':s2_recursos_views_adapters', ':s3_adapters_sqlite', 's4_greendao_retrofit2'

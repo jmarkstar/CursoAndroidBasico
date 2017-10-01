@@ -36,6 +36,7 @@ public class GreenDaoListaActivity extends AppCompatActivity {
     @Override protected void onResume() {
         super.onResume();
         adapter.addList(daoSession.getMyEntityDao().loadAll());
+
     }
 
     @OnClick(R.id.btn_agregar)
